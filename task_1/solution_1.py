@@ -1,1 +1,2 @@
-# your code here
+a = input()
+print(max(a))
