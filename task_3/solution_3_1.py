@@ -1,7 +1,7 @@
 s = input()
-t = ""
-in_t = False 
+t = "" 
 for i in s:
+  in_t = False
   for j in t:
     if i == j:
       in_t = True
