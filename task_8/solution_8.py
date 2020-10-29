@@ -1,10 +1,15 @@
 a = 0
+n = int(input())
 b = int(input())
-c = int(input())
-while c != 0:
-  a += c
-  c = int(input())
-print(a/(b-1))
+summ = 0
+if b == 0:
+    print(0) 
+else:
+    while b != 0:
+        a += b
+        summ += 1
+        b = int(input())
+    print(a/summ)
 
 #я подпрыгнула на стуле когда это решила
 
