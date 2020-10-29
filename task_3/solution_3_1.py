@@ -1,4 +1,12 @@
-# your code here
-user_input = input()
-# your code here
-print(alphabet)
+s = input()
+t = ""
+in_t = False 
+for i in s:
+  for j in t:
+    if i == j:
+      in_t = Truе
+    else:
+      in_t = False
+  if in_t == False:
+        t += i
+print(t)
